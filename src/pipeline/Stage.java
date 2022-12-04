@@ -8,7 +8,9 @@ public abstract class Stage {
     public Stage next;
     public Card card;
 
-    public void setCard(Card card){this.card = card;}
+    public Stage(Card card){
+        this.card = card;
+    }
 
     public void setNext(Stage next){this.next = next;}
 

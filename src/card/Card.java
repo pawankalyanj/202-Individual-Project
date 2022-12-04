@@ -1,26 +1,27 @@
 package card;
 
 public class Card {
-    public String number, type, error;
-    public boolean isValid;
+    private String number, type, error;
+    private boolean valid;
 
     public Card(String number) {
         this.number = number;
-        isValid = true;
+        valid = true;
     }
 
     public String getNumber(){return number;}
     public String getValue(){
-        if(isValid) return type;
+        if(valid) return type;
         return error;
     }
 
-    public void setInvalid(){this.isValid = false;}
+    public void setInvalid(){this.valid = false;}
+    public boolean isValid(){return this.valid;}
 
     public void setError(String error){this.error = error;}
 
-    public void setAmericanExpress(){this.type = "American Express";}
+    public void setAmericanExpress(){this.type = "AmericanExpress";}
     public void setDiscover(){this.type = "Discover";}
-    public void setMaster(){this.type = "Master";}
+    public void setMasterCard(){this.type = "MasterCard";}
     public void setVisa(){this.type = "Visa";}
 }
