@@ -15,7 +15,9 @@ public class Card {
         return error;
     }
 
-    public void setInvalid(){this.valid = false;}
+    public String setInvalid(){this.valid = false;
+        return null;
+    }
     public boolean isValid(){return this.valid;}
 
     public void setError(String error){this.error = error;}
