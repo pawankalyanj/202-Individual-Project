@@ -1,11 +1,11 @@
 package pipeline;
 
-import org.junit.jupiter.api.Test;
 import card.Card;
+import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CardNumberLengthCheckTest {
     @Test
