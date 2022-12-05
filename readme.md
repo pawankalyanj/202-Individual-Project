@@ -36,8 +36,11 @@ Here's the UML diagram of entire Project:
 **How to run the project and Junit tests?**
 ---
 Step1: Clone the git repo to your local Machine.
+
 Step2: Check all the JAR files are in place.
+
 Step3: Naviagte to test sources folder and select run all tests it will run all the unit tests.
+
 Step4: To read the input files and get the output files place the input files in the appropriate directory and run the main.java then you can see the output files in the same directory as the input files.
 
 
