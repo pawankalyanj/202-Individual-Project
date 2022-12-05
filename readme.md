@@ -19,7 +19,7 @@ Chain of Responsibility is a behavioral design pattern that lets us pass the req
 
 **Second Problem I found:**
 ---
-The second problem is we need to create an multiple input and output objects for parsing the different types of file formats such as ".*CSV",".*json" and ".*xml".
+The second problem is we need to create an multiple input and output objects for parsing the different types of file formats such as ".*csv",".*json" and ".*xml".
 So for this problem we can use Factory design pattern becuse in facotry design pattern we can created a Abstract class and all the other child classses can inherit from the abstract class without exposing the creational logic, and also it is open for extension like in future we can also extend to accept the other file formats without changing the entire code.
 
 **Here's the UML Diagram for Factory Method design Pattern**
